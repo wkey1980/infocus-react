@@ -2,6 +2,9 @@ function Navbar() {
     return (
         <nav className="navbar">
             <ul className="navbar__list">
+                <a className="navbar__logo" href="#">Infocus</a>
+            </ul>
+            <ul className="navbar__list">
                 <li className="navbar__item"><a className="navbar__link" href="#">Home</a></li>
                 <li className="navbar__item"><a className="navbar__link" href="#">Portfolio</a></li>
                 <li className="navbar__item"><a className="navbar__link" href="#">About</a></li>
